@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['Green', 'Red', 'Traffic-light-colour', 'Yellow']
+
+roboflow:
+  workspace: sreya-3iisz
+  project: traffic-light-detection-ozcos
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sreya-3iisz/traffic-light-detection-ozcos/dataset/1
